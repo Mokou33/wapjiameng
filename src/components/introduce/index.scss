@@ -1,0 +1,29 @@
+.introduce{
+  padding: .3rem .45rem;
+  //background-color: pink;
+  //border: 1px solid red;
+  .video{
+    width: 5.5rem;
+    height: 3rem;
+    border: 1px solid #000;
+    margin: 0 auto;
+  }
+
+
+  .con{
+
+    h2{
+      padding: .12rem 0;
+      font-size: .35rem;
+      font-weight: bold;
+      color: #CCAC62;
+      border-bottom: .01rem solid #000000;
+
+    }
+
+    p{
+      font-size: .18rem;
+      line-height: .4rem;
+    }
+  }
+}

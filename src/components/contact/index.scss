@@ -1,0 +1,50 @@
+.contact{
+
+  .tit{
+    position: relative;
+      text-align: center;
+    h2{
+      font-size: .35rem;
+    }
+
+  }
+  .tit:after{
+    position: absolute;
+    content: '';
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: .42rem;
+    height: .06rem;
+    background-color: #55C0D4;
+  }
+
+
+  .form{
+    padding: 0 .25rem;
+    border: 1px solid red;
+
+    input{
+      margin-bottom: .25rem;
+    }
+    textarea{
+      height: 1.6rem;
+    }
+
+
+    .btn{
+
+      margin: .25rem 0;
+      .sub{
+        width: 2.27rem;
+        margin-right: .04rem;
+        background-color: #55C0D4;
+        color: #fff;
+      }
+      .reset{
+        width: 1.5rem;
+      }
+    }
+  }
+}
