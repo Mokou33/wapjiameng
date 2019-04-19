@@ -1,10 +1,34 @@
 import React, {Component} from 'react';
 
+import Banner from "../../banner";
+import SerCon from "../serCon";
+import CoopAdv from "../coopAdv";
+import CoopAdvInfo from "../coopAdvInfo";
+import Issue from "../issue";
+import Case from "../../case";
+import Pub from "../pub";
+
+import Contact from "../../contact";
+import Footer from "../../footer";
+
+
+
+
+
+
 class Serve extends Component {
     render() {
         return (
             <div>
-                服务组件
+                <Banner />
+                <SerCon />
+                <CoopAdv />
+                <CoopAdvInfo />
+                <Issue />
+                <Case />
+                <Pub />
+                <Contact />
+                <Footer />
             </div>
         );
     }

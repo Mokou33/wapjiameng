@@ -1,10 +1,12 @@
 .contact{
-
+  padding-top: .4rem;
   .tit{
     position: relative;
-      text-align: center;
+    text-align: center;
+    border-bottom: 1px solid #DBDBDB;
     h2{
-      font-size: .35rem;
+      font-size: .3rem;
+      font-weight: bold;
     }
 
   }
@@ -23,7 +25,8 @@
 
   .form{
     padding: 0 .25rem;
-    border: 1px solid red;
+    margin: .27rem 0;
+    //border: 1px solid red;
 
     input{
       margin-bottom: .25rem;
@@ -44,6 +47,44 @@
       }
       .reset{
         width: 1.5rem;
+      }
+    }
+  }
+
+  .chat{
+    padding: 0 .3rem;
+    display: flex;
+    justify-content: space-between;
+
+    .rx, .email{
+      display: flex;
+      justify-content: space-around;
+      height: .9rem;
+      i{
+        width: .6rem;
+        height: .6rem;
+        font-size: .4rem;
+      }
+      .pro{
+        box-sizing: border-box;
+        p:nth-child(1){
+          margin-bottom: 0;
+          font-size: .12rem;
+        }
+        p:last-child{
+          margin-bottom: 0;
+          font-size: .12rem;
+        }
+      }
+    }
+    .wxPic{
+      display: flex;
+      justify-content: space-around;
+      margin-top: .38rem;
+      img{
+        width: .95rem;
+        height: .95rem;
+        margin-left: .2rem;
       }
     }
   }

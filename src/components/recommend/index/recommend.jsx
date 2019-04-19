@@ -1,10 +1,21 @@
 import React, {Component} from 'react';
 
+
+
+import Banner from "../../banner";
+import Explanation from "../explanation";
+
+
+
+
+
+
 class Recommend extends Component {
     render() {
         return (
             <div>
-                98介绍
+                <Banner />
+                <Explanation />
             </div>
         );
     }

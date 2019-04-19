@@ -1,0 +1,59 @@
+.case{
+  .tit{
+    position: relative;
+    padding-top: .16rem;
+    height: 1.28rem;
+    text-align: center;
+    border-bottom: .01rem solid #DBDBDB;
+    box-sizing: border-box;
+    h2{
+      font-size: .3rem;
+      font-weight: bold;
+      color: #000;
+    }
+  }
+  .tit:after{
+    position: absolute;
+    content: '';
+    bottom: -.03rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: .42rem;
+    height: .06rem;
+    background-color: #55C0D4;
+  }
+  .con{
+    width: 5.5rem;
+    margin:.75rem auto 0;
+
+    .conUl{
+      display: flex;
+      flex-wrap: wrap;
+      li{
+        width: 1rem;
+        height: .8rem;
+        margin: .05rem .05rem 0 0 ;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    /*.caseMore{
+      width: 80px;
+      height: 30px;
+      margin: 40px auto;
+      text-align: center;
+      a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        line-height: 30px;
+        border: 1px solid #666666;
+        border-radius: 8px;
+        color: #666666;
+      }
+    }*/
+  }
+}

@@ -77,21 +77,44 @@ class Contact extends Component {
                     <h2>CONTACT US</h2>
                     <h2>联系我们</h2>
                 </div>
-                    <div className="form">
-                        <div className="name">
-                            <Input value={this.state.name} onChange={this.handleName} placeholder="姓名:"/>
+                <div className="form">
+                    <div className="name">
+                        <Input value={this.state.name} onChange={this.handleName} placeholder="姓名:"/>
+                    </div>
+                    <div className="tel">
+                        <Input value={this.state.tel} onChange={this.handleTel} placeholder="电话:"/>
+                    </div>
+                    <div className="msg">
+                        <Input.TextArea value={this.state.msg} onChange={this.handleMsg} placeholder="留言:"/>
+                    </div>
+                    <div className="btn">
+                        <Button className="sub" onClick={this.handleSub}>提 交</Button>
+                        <Button className="reset" onClick={this.handleReset}>重 置</Button>
+                    </div>
+                </div>
+                <div className="chat">
+                    <div>
+
+                        <div className="rx">
+                            <i className="iconfont icon-phone"></i>
+                            <div className="pro">
+                                <p>咨询热线：</p>
+                                <p>021-0202020288</p>
+                            </div>
                         </div>
-                        <div className="tel">
-                            <Input value={this.state.tel} onChange={this.handleTel} placeholder="电话:"/>
-                        </div>
-                        <div className="msg">
-                            <Input.TextArea value={this.state.msg} onChange={this.handleMsg} placeholder="留言:"/>
-                        </div>
-                        <div className="btn">
-                            <Button className="sub" onClick={this.handleSub}>提 交</Button>
-                            <Button className="reset" onClick={this.handleReset}>重 置</Button>
+                        <div className="email">
+                            <i className="iconfont icon-email2"></i>
+                            <div className="pro">
+                                <p>邮 箱：</p>
+                                <p>258158@qq.com</p>
+                            </div>
                         </div>
                     </div>
+                    <div className="wxPic">
+                        <img src={require("../../assets/img/contact/wx_01.png")} alt="公众号"/>
+                        <img src={require("../../assets/img/contact/wx_02.png")} alt="小程序"/>
+                    </div>
+                </div>
             </div>
         );
     }

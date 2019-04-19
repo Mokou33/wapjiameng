@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
 
+import Banner from "../../banner";
+
+
+
 class Rare extends Component {
     render() {
         return (
             <div>
-                咨询组件
+                <Banner />
             </div>
         );
     }

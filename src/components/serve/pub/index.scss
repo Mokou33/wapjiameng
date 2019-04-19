@@ -1,0 +1,39 @@
+.pub{
+  width: 100vw;
+
+  .adv{
+    img{
+      width: 100%;
+    }
+  }
+  .art1{
+    padding-top: .2rem;
+    text-align: center;
+    height: 1.6rem;
+    background-color: #2CA79F;
+    font-size: .2rem;
+    color: #fff;
+    p{
+      font-weight: bold;
+      margin-bottom: .12rem;
+      span{
+        font-weight: normal;
+        font-size: .12rem;
+      }
+    }
+  }
+  .art2{
+    padding-top: .3rem;
+    text-align: center;
+    height: 2rem;
+    background: url("../../../assets/img/server/adv_03.png") no-repeat center/cover;
+    color: #fff;
+    p{
+      margin-bottom: 0;
+      font-size: .48rem;
+      span{
+        font-size: .40rem;
+      }
+    }
+  }
+}

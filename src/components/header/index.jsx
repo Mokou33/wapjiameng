@@ -36,7 +36,9 @@ class Header extends Component {
         return (
             <div className="header">
                 <div className="left">
-                    <img src={require("../../assets/img/header/logo.png")} alt="logo" className="logo"/>
+                    <Link to="/">
+                        <img src={require("../../assets/img/header/logo.png")} alt="logo" className="logo"/>
+                    </Link>
                 </div>
                 <div ref={nav=>this.nav=nav} className="right">
                     <img src={require("../../assets/img/header/top_ban.png")} alt="导航" className="navimg"/>
