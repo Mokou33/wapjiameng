@@ -1,0 +1,48 @@
+.plan{
+  padding: .3rem 0;
+  height: 4.05rem;
+  background:url("../../../assets/img/recommend/planbg.png") center/cover no-repeat;
+  text-align: center;
+  h2{
+    font-size: .35rem;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  p{
+    color: #CCAC62;
+    margin-bottom: .05rem;
+    font-size: .18rem;
+  }
+  .con{
+    display: flex;
+    flex-wrap: wrap;
+    width: 5.7rem;
+    margin: auto;
+    .box{
+      display: flex;
+      width: 1.9rem;
+      height: .95rem;
+      margin-bottom: .06rem;
+      background-color: #6C5182;
+      .boxL{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: .9rem;
+        font-size: .1rem;
+        p{
+          color: #fff;
+          font-weight: bold;
+          margin-bottom: 0;
+        }
+      }
+      .pic{
+        width: 1rem;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 
 import Banner from "../../banner";
+import Clcase from "../clcase";
+
 
 
 
@@ -9,6 +11,7 @@ class Classic extends Component {
         return (
             <div>
                 <Banner />
+                <Clcase />
             </div>
         );
     }

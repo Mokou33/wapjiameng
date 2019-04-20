@@ -1,3 +1,53 @@
 .design{
+  width: 100vw;
+  padding: .5rem 0 .85rem;
+  text-align: center;
+  h2{
+    color: #6C5182;
+    font-size: .35rem;
+    font-weight: bold;
+    margin-bottom: .05rem;
+  }
 
+  h3{
+
+    font-size: .25rem;
+    font-weight: bold;
+  }
+  .con{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0 auto;
+    .box{
+      padding-top: .43rem;
+      background-color: #6c5182;
+      width: 2.3rem;
+      height: 2.3rem;
+      margin-bottom: .24rem;
+      border-radius: 50%;
+      img{
+        width: .7rem;
+      }
+      p{
+        margin-bottom: 0;
+        font-size: .3rem;
+        color: #fff;
+      }
+    }
+    .box:nth-child(1), .box:nth-child(3){
+      margin-right: .16rem;
+    }
+
+  }
+  .tip{
+    margin-top: .4rem ;
+    p{
+      margin-bottom: 0;
+      font-size: .2rem;
+      font-weight: bold;
+      color: #6c5182;
+    }
+  }
 }

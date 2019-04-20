@@ -47,7 +47,7 @@ class Header extends Component {
                             <li><Link to="/">首页</Link></li>
                             <li><Link to="/serve">服务内容</Link></li>
                             <li><Link to="/cooperation">合作优势</Link></li>
-                            <li><Link to="/classic">经典案例</Link></li>
+                            <li><Link to="/classic/one" >经典案例</Link></li>
                             <li><Link to="/recommend">98介绍</Link></li>
                             <li><Link to="/rare">快速资源</Link></li>
                         </ul>

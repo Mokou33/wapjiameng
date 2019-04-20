@@ -21,8 +21,8 @@ export const routers = [
         component: Cooperation
     },
     {
-        path: '/classic',
-        component: Classic,
+        path: '/classic/:id',
+        component: Classic
 
     },
     {
