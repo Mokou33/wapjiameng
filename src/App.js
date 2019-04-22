@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
@@ -24,14 +24,11 @@ class App extends Component {
           <Layout>
             <Switch>
               {
-                  
                 routers.map((item, index) => {
                   return (
                       <Route
                           key={index}
-                          exact={item.exact}
-                          path={item.path}
-                          component={item.component}
+                          {...item}
                       ></Route>
                   )
                 })

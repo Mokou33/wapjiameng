@@ -13,7 +13,8 @@ class Type extends Component {
                     <img src={require("../../../assets/img/cooperation/type_04.png")} alt=""/>
                 </div>
                 <div className="sub">
-                    <a href="#">提交需求</a>
+                    {/*<a href="#">提交需求</a>*/}
+                    <span>提交需求</span>
                 </div>
 
             </div>

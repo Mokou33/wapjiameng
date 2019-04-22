@@ -5,9 +5,7 @@ import SerCon from "../serCon";
 import CoopAdv from "../coopAdv";
 import CoopAdvInfo from "../coopAdvInfo";
 import Issue from "../issue";
-import Case from "../../case";
 import Pub from "../pub";
-
 import Contact from "../../contact";
 import Footer from "../../footer";
 
@@ -25,7 +23,6 @@ class Serve extends Component {
                 <CoopAdv />
                 <CoopAdvInfo />
                 <Issue />
-                <Case />
                 <Pub />
                 <Contact />
                 <Footer />

@@ -5,7 +5,7 @@
 }
 
 .clcase{
-  border: 1px solid red;
+  //border: 1px solid red;
   .selected{
     border: .01rem solid #55C0D4;
   }
@@ -36,19 +36,19 @@
 
 
   .con {
-    //width: 1225px;
+    width: 6rem;
     //height: 480px;
-    margin: .75rem auto;
+    margin: .1rem auto;
 
     .conUl {
       display: flex;
       flex-wrap: wrap;
-
+      margin: auto;
       li {
-
-        width: 170px;
-        height: 120px;
-        margin: 5px 5px 0 0;
+        //border: 1px solid red;
+        width: 2.95rem;
+        height: 2.08rem;
+        margin: .05rem .05rem  0 0;
         overflow: hidden;
 
         img {

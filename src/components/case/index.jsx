@@ -23,7 +23,6 @@ class Case extends Component {
                         <li><img src={require("../../assets/img/case/15.jpg")} alt="case"/></li>
                         <li><img src={require("../../assets/img/case/46.jpg")} alt="case"/></li>
                         <li><img src={require("../../assets/img/case/34.jpg")} alt="case"/></li>
-
                     </ul>
                 </div>
             </div>

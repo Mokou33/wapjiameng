@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 
 
-// import Header from "../header";
 import Banner from "../banner";
+import NavBar from "../navBar";
+
 import Introduce from "../introduce";
 import Honour from "../honour";
 import Values from "../values";
@@ -24,8 +25,8 @@ class Home extends Component {
     render() {
         return (
             <div >
-                {/*<Header />*/}
                 <Banner />
+                <NavBar />
                 <Introduce />
                 <Honour />
                 <Values />

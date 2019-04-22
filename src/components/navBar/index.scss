@@ -1,0 +1,22 @@
+.navBar{
+  margin: .2rem;
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 6rem;
+    margin: auto;
+    text-align: center;
+    li{
+      width: 2rem;
+
+      a{
+        display: flex;
+        flex-direction: column;
+        color: #CCAC62;
+        i{
+          font-size: .5rem;
+        }
+      }
+    }
+  }
+}
