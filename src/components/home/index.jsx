@@ -13,18 +13,15 @@ import Contact from "../contact";
 import Footer from "../footer";
 
 
-
-
-
-
-
-
-
-
 class Home extends Component {
+    componentDidMount() {
+        this.node.scrollIntoView()
+    }
+
+
     render() {
         return (
-            <div >
+            <div  ref={node => this.node = node}>
                 <Banner />
                 <NavBar />
                 <Introduce />

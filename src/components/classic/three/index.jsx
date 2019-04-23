@@ -9,7 +9,7 @@ class Three extends Component {
 
     render() {
         return (
-            <div className="three">
+            <div className="three" >
                 <ul className="conUl">
                     {
                         this.state.arr.length>0 && (

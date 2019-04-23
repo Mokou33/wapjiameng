@@ -12,9 +12,14 @@ import Footer from "../../footer";
 
 
 class Rare extends Component {
+
+    componentDidMount() {
+        this.node.scrollIntoView()
+    }
+
     render() {
         return (
-            <div>
+            <div ref={node => this.node = node}>
                 <Banner />
                 <Content />
                 <Sale />

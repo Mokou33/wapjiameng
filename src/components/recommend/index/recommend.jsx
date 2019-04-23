@@ -22,9 +22,14 @@ import Footer from "../../footer";
 
 
 class Recommend extends Component {
+
+    componentDidMount() {
+        this.node.scrollIntoView()
+    }
+
     render() {
         return (
-            <div>
+            <div ref={node => this.node = node}>
                 <Banner />
                 <Explanation />
                 <Design />

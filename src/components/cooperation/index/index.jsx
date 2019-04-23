@@ -12,9 +12,15 @@ import Footer from "../../footer";
 
 
 class Cooperation extends Component {
+
+    componentDidMount() {
+        this.node.scrollIntoView()
+    }
+
+
     render() {
         return (
-            <div>
+            <div ref={node => this.node = node}>
                 <Banner />
                 <Coop />
                 <Type />
